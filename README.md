@@ -145,7 +145,7 @@ services:
        - db
      image: postfixadmin-image:latest
      ports:
-       - "8000:80"
+       - "8080:80"
      restart: always
      environment:
        POSTFIXADMIN_DB_TYPE: mysqli
